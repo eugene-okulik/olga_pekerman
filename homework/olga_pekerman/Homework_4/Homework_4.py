@@ -17,4 +17,3 @@ my_dict['dict']['i am a tuple'] = 'value6'
 my_dict['dict'].pop('key1')
 my_dict['set'].add('new_value')
 my_dict['set'].pop()
-              
