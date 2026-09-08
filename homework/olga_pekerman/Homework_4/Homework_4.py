@@ -13,7 +13,8 @@ my_dict = {
 print(my_dict['tuple'][-1])
 my_dict['list'].append('six')
 my_dict['list'].pop(1)
-my_dict['dict']['i am a tuple'] = 'value6'
+my_dict['dict'][('i am a tuple'),] = 'value6'
 my_dict['dict'].pop('key1')
 my_dict['set'].add('new_value')
 my_dict['set'].pop()
+print(my_dict)
